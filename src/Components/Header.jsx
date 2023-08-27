@@ -10,7 +10,7 @@ const Header = () => {
       <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between py-6">
         <div className="flex items-center">
           <Link to="/" className="flex items-center"> 
-            <img src="/logo1.png" alt="Sri Dhanalakshmi Jothidam Logo" className="h-25 w-20 lg:h-25 lg:w-25 mr-2" />
+            <img src="images/logo1.png" alt="Sri Dhanalakshmi Jothidam Logo" className="h-25 w-20 lg:h-25 lg:w-25 mr-2" />
             <h1 className="text-4xl lg:text-4xl font-semibold mb-4 lg:mb-0 lg:mr-8 text-red-500">Sri Dhanalakshmi Jothidam</h1>
           </Link>
         </div>

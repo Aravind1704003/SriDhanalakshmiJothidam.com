@@ -37,7 +37,7 @@ const Body = () => {
   }, []);
 
   return (
-    <div className="bg-cover bg-center min-h-screen" style={{ backgroundImage: 'url("/astro-2.jpg")' }}>
+    <div className="bg-cover bg-center min-h-screen" style={{ backgroundImage: 'url("images/astro-2.jpg")' }}>
       <div className="bg-black bg-opacity-50 h-full flex flex-col justify-center items-center text-center">
         <h2 className="text-white text-3xl font-semibold mb-4">
           Welcome to{' '}
