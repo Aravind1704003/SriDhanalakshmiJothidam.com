@@ -15,16 +15,16 @@ const Header = () => {
           </Link>
         </div>
         <nav className="flex space-x-4">
-          <Link to="/" className={`text-lg lg:text-xl text-blue-500 hover:text-red-500 flex items-center ${location.pathname === '/' ? 'underline' : ''}`}>
+          <Link to="/SriDhanalakshmiJothidam.com/" className={`text-lg lg:text-xl text-blue-500 hover:text-red-500 flex items-center ${location.pathname === '/' ? 'underline' : ''}`}>
             <FaHome className="mr-2" />Home
           </Link>
-          <Link to="/services" className={`text-lg lg:text-xl text-blue-500 hover:text-red-500 flex items-center ${location.pathname === '/services' ? 'underline' : ''}`}>
+          <Link to="/SriDhanalakshmiJothidam.com/services" className={`text-lg lg:text-xl text-blue-500 hover:text-red-500 flex items-center ${location.pathname === '/services' ? 'underline' : ''}`}>
             <FaTools className="mr-2" />Services
           </Link>
-          <Link to="/about" className={`text-lg lg:text-xl text-blue-500 hover:text-red-500 flex items-center ${location.pathname === '/about' ? 'underline' : ''}`}>
+          <Link to="/SriDhanalakshmiJothidam.com/about" className={`text-lg lg:text-xl text-blue-500 hover:text-red-500 flex items-center ${location.pathname === '/about' ? 'underline' : ''}`}>
             <FaInfoCircle className="mr-2" />About
           </Link>
-          <Link to="/contact" className={`text-lg lg:text-xl text-blue-500 hover:text-red-500 flex items-center ${location.pathname === '/contact' ? 'underline' : ''}`}>
+          <Link to="/SriDhanalakshmiJothidam.com/contact" className={`text-lg lg:text-xl text-blue-500 hover:text-red-500 flex items-center ${location.pathname === '/contact' ? 'underline' : ''}`}>
             <FaPhone className="mr-2" />Contact
           </Link>
         </nav>
