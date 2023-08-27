@@ -1,0 +1,65 @@
+/* 
+.service-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border: 3px solid var(--border-color, #e41818);
+    box-shadow: 0 5px 5px var(--shadow-color, #42db27);
+    background-size: cover;
+    background-position: center;
+  } */
+
+  /* ServicePage.css */
+
+/* Style for the service card */
+.service-card {
+  position: relative;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  border: 5px solid var(--border-color, #e41818); 
+  box-shadow: 0 5px 5px var(--shadow-color, #42db27);  
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+/* Style for the overlay when card is clicked */
+.service-card.expanded {
+  box-shadow: 0 10px 10px var(--shadow-color, #42db27);
+  transform: scale(1.05);
+  z-index: 1;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  transition: opacity 0.3s;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.service-card.expanded .overlay {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.overlay h2 {
+  margin-bottom: 0.5rem;
+}
+
+.overlay p {
+  margin: 0;
+}
+
+  
+  
+  
+  
+ 
+  
