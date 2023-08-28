@@ -20,7 +20,6 @@ const colors = [
   "text-rose-500",
 ];
 
-
 const getRandomColor = () => colors[Math.floor(Math.random() * colors.length)];
 
 const Body = () => {
@@ -38,24 +37,20 @@ const Body = () => {
 
   return (
     <div className="bg-cover bg-center min-h-screen" style={{ backgroundImage: 'url("images/astro-2.jpg")' }}>
-      <div className="bg-black bg-opacity-50 h-full flex flex-col justify-center items-center text-center">
-        <h2 className="text-white text-3xl font-semibold mb-4">
+      <div className="bg-black bg-opacity-50 h-full flex flex-col justify-center items-center text-center p-4">
+        <h2 className="text-white text-xl md:text-3xl font-semibold mb-2 md:mb-4">
           Welcome to{' '}
           <span className={`transition-colors duration-100 ${colorClass}`}>
             Sri </span><span className={`transition-colors duration-100 ${colorClass}`}>
             Dhanalakshmi </span><span className={`transition-colors duration-100 ${colorClass}`}>
             Jothidam</span>
-          
         </h2>
-        <p className="text-white text-lg">Explore the world of Astrology, Numerology, Vaasthu, and more.</p>
+        <p className="text-white text-sm md:text-lg">
+          Explore the world of Astrology, Numerology, Vaasthu, and more.
+        </p>
       </div>
     </div>
   );
 };
 
 export default Body;
-
-
-
-
-
