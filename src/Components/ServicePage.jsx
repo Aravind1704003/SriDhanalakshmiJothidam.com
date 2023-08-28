@@ -46,7 +46,7 @@ const ServiceCard = ({ title, description, style, image }) => {
       </div>
       {expanded && (
         <div className="overlay p-4 mb-0 bg-white"> {/* Change mt-auto to mb-0 */}
-          <p className="text-black">{description}</p>
+          <p className="text-white">{description}</p>
         </div>
       )}
     </div>

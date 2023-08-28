@@ -7,6 +7,7 @@ import Body from './Components/Body.jsx'
 import ServicePage from './Components/ServicePage.jsx'
 import Contact from './Components/Contact.jsx'
 import About from './Components/About.jsx'
+import PaymentPage from './Components/PaymentPage.jsx'
 
 const router=createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router=createBrowserRouter([
     {
       path:"/SriDhanalakshmiJothidam.com/contact",
       element:<Contact/>
+    },
+    {
+      path:"/SriDhanalakshmiJothidam.com/payment",
+      element:<PaymentPage/>
     },
     ],
   },
