@@ -3,7 +3,6 @@ import React from 'react';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import { Outlet } from 'react-router-dom';
-import DailyHoroscope from './Components/DailyHoroscope';
 // import ServicePage from './Components/ServicePage';
 // import Body from './Components/Body';
 // import About from './Components/About';
