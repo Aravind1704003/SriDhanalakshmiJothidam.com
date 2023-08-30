@@ -7,8 +7,8 @@ const About = () => {
         <h1 className="text-3xl font-semibold mb-6 text-center">About</h1>
         <div className="bg-white p-8 rounded-lg shadow-md flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2 lg:mr-8 mb-4 lg:mb-0">
-            <img src="images/vaastucover.jpg" alt="Office 1" className="w-full h-auto rounded-lg shadow-md mb-4" />
-            <img src="/vaastucover.jpg" alt="Office 2" className="w-full h-auto rounded-lg shadow-md" />
+            <img src="images/photo.jpg" alt="Office 1" className="w-full h-auto rounded-lg shadow-md mb-4" />
+            <img src="images/customer.jpg" alt="Office 2" className="w-full h-auto rounded-lg shadow-md" />
           </div>
           <div className="lg:w-1/2">
             <p className="text-3xl text-gray-700">
@@ -19,7 +19,7 @@ const About = () => {
         <div className="bg-white p-8 rounded-lg shadow-md mt-8">
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             <img src="images/pooja1.jpg" alt="Image 3" className="w-full h-auto rounded-lg shadow-md" />
-            <img src="images/vaastucover.jpg" alt="Image 4" className="w-full h-auto rounded-lg shadow-md" />
+            <img src="images/waiting.jpg" alt="Image 4" className="w-full h-auto rounded-lg shadow-md" />
             <img src="images/office4.jpg" alt="Image 5" className="w-full h-auto rounded-lg shadow-md" />
           </div>
         </div>

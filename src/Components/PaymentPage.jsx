@@ -11,7 +11,7 @@ const PaymentPage = () => {
             Scan the QR code below using your Google Pay app to make a payment.
           </p>
           <div className="mt-4">
-            <img src="/gpay_qr_code.png" alt="Google Pay QR Code" className="w-48 mx-auto" />
+            <img src="images/qr1.jpg" alt="Google Pay QR Code" className="w-48 mx-auto" />
           </div>
         </div>
         <div className="bg-white p-6 rounded shadow-md">
@@ -20,10 +20,10 @@ const PaymentPage = () => {
             You can also make a payment by transferring the amount to the following bank account:
           </p>
           <div className="mt-4">
-            <p className="font-semibold">Bank: XYZ Bank</p>
-            <p>Account Number: 1234567890</p>
-            <p>Account Holder: Your Name</p>
-            <p>IFSC Code: ABCD123456</p>
+            <p className="font-semibold">Bank: Canara Bank</p>
+            <p>Account Number: 0988101023276</p>
+            <p>Account Holder: SEKAR B</p>
+            <p>IFSC Code: CNRB0004973</p>
           </div>
         </div>
       </div>
