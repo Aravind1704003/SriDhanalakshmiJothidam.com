@@ -41,11 +41,11 @@ const ServiceCard = ({ title, description, style, image }) => {
       style={{ backgroundImage: `url(${image})` }}
       onClick={toggleExpanded}
     >
-      <div className="overlay p-4 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div className="overlay p-4 opacity-100 group-hover:opacity-100 transition-opacity">
         <h2 className="text-xl font-semibold mb-2">{title}</h2>
       </div>
       {expanded && (
-        <div className="overlay p-4 mb-0 bg-white"> {/* Change mt-auto to mb-0 */}
+        <div className="overlay p-4 mb-0 bg-white"> 
           <p className="text-white">{description}</p>
         </div>
       )}

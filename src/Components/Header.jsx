@@ -3,8 +3,6 @@ import { FaHome, FaTools, FaInfoCircle, FaPhone, FaMoneyBillWave } from 'react-i
 import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
-  const location = useLocation();
-
   return (
     <header className="bg-gray-900 text-white">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between py-6 md:py-4">
